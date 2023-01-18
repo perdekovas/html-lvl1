@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px 0 50px;
+}
+
+#logo {
+    margin-right: -17%;
+}
+
+.linky {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 15px;
+}
+
+.openlab_dropdown {
+    display: none;
+}
+
+#openlab:hover {
+    display: flex;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3597ff;
+    background-color: transparent;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+#pridaj_sa_k_nam {
+    background-color: #3597ff;
+    color: white;
+    padding: 5px 20px;
+    margin: 12px;
+    border-radius: 10px;
+    border: none;
+    height: 48px;
+}
+
+.institut {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3597ff;
+    color: white;
+    font-size: 12px;
+    font-weight: 70;
+}
+
+.text {
+    margin: 80px;
+    max-width: 40%;
+}
+
+.text>h1 {
+    font-size: 350%!important;
+}
+
+.text>p {
+    font-size: 145%!important;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.nasaVizia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.karty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+.karta {
+    display: flex;
+    justify-content: space-between;
+
+    flex-direction: column;
+    width: 300px;
+    height: 140px;
+}
+
+.karta>p {
+    color: #566b8d;
+}
+
+.karta>img {
+    width: 50px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    align-content: space-between;
+}
+
+.card {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+    margin: 2%;
+    padding-right: 5%;
+}
+
+#card1 {
+    background-color: rgba(221, 236, 251, 0.4);
+    color: #5b94d7;
+}
+
+#card2 {
+    background-color: rgba(238, 226, 156, 0.4);
+    color: #dbca68;
+}
+
+#card3 {
+    background-color: rgba(156, 238, 204, 0.4);
+    color: rgba(0, 128, 0, 0.582);
+}
+
+#card4 {
+    background-color: rgba(238, 156, 156, 0.4);
+    color: #b95e73;
+}
