@@ -71,7 +71,8 @@ a:hover {
 
 .institut {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     background-color: #3597ff;
     color: white;
     font-size: 12px;
@@ -79,7 +80,6 @@ a:hover {
 }
 
 .text {
-    margin: 80px;
     max-width: 40%;
 }
 
