@@ -13,17 +13,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 50px 0 50px;
+    margin: 0 80px 0 80px;
 }
 
 #logo {
-    margin-right: -17%;
+    margin-right: -20%;
+    width: 120px;
 }
 
 .linky {
     display: flex;
     justify-content: space-between;
-    gap: 60px;
+    gap: 37px;
     padding: 15px;
 }
 
@@ -64,6 +65,10 @@ a:hover {
     height: 48px;
 }
 
+#pridaj_sa_k_nam>p {
+    letter-spacing: 8px;
+}
+
 .institut {
     display: flex;
     justify-content: space-between;
@@ -84,26 +89,43 @@ a:hover {
 
 .text>p {
     font-size: 145%!important;
-    letter-spacing: 1px;
+    letter-spacing: 1.25px;
     line-height: 25px;
 }
 
-.nasaVizia {
+.preco_openlab_text {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0 75px 0;
+    column-gap: 100px;
+}
+
+.preco_openlab_text>h1 {
+    font-size: 250%!important;
+}
+
+.preco_openlab_text>p {
+    color: #566b8d;
+    font-size: 100%;
+    letter-spacing: 1px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 45px;
+    width: 1250px;
 }
 
 .karty {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3%;
+    gap: 2%;
 }
 
 .karta {
     display: flex;
     justify-content: space-between;
-
     flex-direction: column;
     width: 300px;
     height: 140px;
@@ -114,7 +136,29 @@ a:hover {
 }
 
 .karta>img {
-    width: 50px;
+    width: 44px;
+}
+
+.nasa_vizia {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+#nasa_vizia_text {
+    margin-top: 50px;
+}
+
+#nasa_vizia_text>h1 {
+    font-size: 250%!important;
+    margin-bottom: 40px;
+}
+
+#nasa_vizia_text>p {
+    color: #566b8d;
+    margin-top: 20px;
+    letter-spacing: 1.15px;
+    line-height: 23px;
 }
 
 .cards {
@@ -133,9 +177,18 @@ a:hover {
     align-items: flex-end;
     border-radius: 10px;
     width: 200px;
-    height: 150px;
+    height: 170px;
     margin: 2%;
     padding-right: 5%;
+}
+
+.card>h1 {
+    font-weight: bold;
+}
+
+.card>p {
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 #card1 {

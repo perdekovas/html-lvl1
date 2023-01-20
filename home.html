@@ -6,25 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Openlab stranka</title>
     <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link href="home.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/openlab-logo.svg" alt="Openlab logo" id="logo">
         <div class="linky">
-            <a href="https://openlab.sk/"><p>Uvod</p></a>
+            <a href="https://openlab.sk/"><p>Úvod</p></a>
             <a href="https://openlab.sk/openlaby/" id="openlab"><p>OpenLab</p></a> 
             <div class="openlab_dropdown"> 
                 <list href="https://openlab.sk/hybridlab/">Hybridlab</list>
                 <list href="https://openlab.sk/gameslab/">Gameslab</list>
                 <list href="https://openlab.sk/appslab/">Appslab</list>
             </div>
-            <a href="https://openlab.sk/pre-ucitelov/"><p>Pre ucitelov</p></a>
+            <a href="https://openlab.sk/pre-ucitelov/"><p>Pre učiteľov</p></a>
             <a href="https://openlab.sk/partneri/"><p>Partneri</p></a>
-            <a href="https://openlab.sk/moderna-skola/"><p>Moderna skola</p></a>
-            <a href="https://openlab.sk/caste-otazky/"><p>Caste otazky</p></a>
+            <a href="https://openlab.sk/moderna-skola/"><p>Moderná škola</p></a>
+            <a href="https://openlab.sk/caste-otazky/"><p>Časté otázky</p></a>
         </div>
-        <button id="pridaj_sa_k_nam">Pridajte sa k nam</button>
+        <button id="pridaj_sa_k_nam">Pridajte sa k nám</button>
     </header>
 
     <section class="institut">
@@ -33,13 +33,15 @@
             <p>Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy <br> ako nový štandard formálneho vzdelávania.</p>
         </div>
         <div class="obrazok_1">
-            <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/main-home.png" alt="openlab fotka" style="width: 500px;">
+            <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/main-home.png" alt="openlab fotka" style="width: 500px; margin-bottom: -3px;">
         </div>
     </section>
     
-    <section class="preco openlab">
-            <h1>Prečo <strong>OpenLab?</strong> </h1>
-            <p>V OpenLabe študentov učíme najnovšie technológie. Zároveň im dávame veľkú slobodu, pričom ich vedieme k zodpovednosti a samostatnosti, učíme ich <br> princípy partnerského prístupu, pracovať v tíme, trénujeme ich schopnosti sebareflexie a podnecujeme ich kreativitu. Takto študentov pripravujeme <br> osobnostne aj tech zručnosťami na veľké veci, ktoré môžu v budúcnosti tvoriť.</p>
+    <section class="preco_openlab">
+            <div class="preco_openlab_text">
+                <h1 id="preco_h1">Prečo <strong>OpenLab?</strong> </h1>
+                <p id="preco_p">V OpenLabe študentov učíme najnovšie technológie. Zároveň im dávame veľkú slobodu, pričom ich vedieme k zodpovednosti a samostatnosti, učíme ich <br> princípy partnerského prístupu, pracovať v tíme, trénujeme ich schopnosti sebareflexie a podnecujeme ich kreativitu. Takto študentov pripravujeme <br> osobnostne aj tech zručnosťami na veľké veci, ktoré môžu v budúcnosti tvoriť.</p>
+            </div>
             <div class="karty">
                 <div class="karta">
                     <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/select.svg" alt="celospolocensky rozvoj obrazok">
@@ -59,8 +61,8 @@
         </div>
     </section>
 
-    <section class="nasaVizia">
-        <div>
+    <section class="nasa_vizia">
+        <div id="nasa_vizia_text">
             <h1>Naša vízia <strong>v Openlabe</strong></h1>
             <p>Veríme, že otvorený prístup a kvalitné vzdelanie sú základom úspechu jednotlivca <br> ako aj prosperujúcej spoločnosti.</p>
             <p>Uvedomujeme si, že ak chceme niečo zmeniť, musíme ísť príkladom. Našim cieľom <br> je rozšíriť princípy OpenLab-u na všetkých úrovniach škôl a nastaviť svetový <br> štandard vzdelávania v školstve v technológiách.</p>
@@ -85,10 +87,20 @@
         </div>
     </section>
 
-    <section>
-        <div class="skoly">
-
-        </div>
+    <section class="laby">
+            <h1>V akých laboch <strong>môžeš študovať?</strong></h1>
+                <div class="laby_karty" id="hybridlab">
+                    <h1><strong>Hybrid</strong>Lab</h1>
+                    <p>Študenti sa učia vyvíjať hybridné aplikácie v HTML, PHP, CSS, JavaScript, Ionicu, Vue a OctoberCMS.</p>
+                </div>
+                <div class="laby_karty" id="gameslab">
+                    <h1><strong>Games</strong>Lab</h1>
+                    <p>Študenti vyvíjajú mobilné hry v Unity a GDevelop, učia sa tvoriť 2D grafiku v programe Piskel, 3D grafiku v programe Blender a herný dizajn.</p>
+                </div>
+                <div class="laby_karty" id="appslab">
+                    <h1><strong>Apps</strong>lab</h1>
+                    <p>Študenti sa učia vyvíjať mobilné aplikácie v C# a Xamarin.forms a webové aplikácie v Java a Angular JS.</p>
+                </div>
     </section>
 
     <section>
