@@ -6,25 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Openlab.sk - Inštitút stredoškolského odborného vzdelávania zameraný na IT &amp; AI.</title>
     <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/openlab-logo.svg" alt="Openlab logo" id="logo">
-        <div class="linky">
-            <a href="https://openlab.sk/"><p>Úvod</p></a>
-            <a href="https://openlab.sk/openlaby/" id="openlab"><p>OpenLab</p></a> 
-            <div class="openlab_dropdown"> 
-                <list href="https://openlab.sk/hybridlab/">Hybridlab</list>
-                <list href="https://openlab.sk/gameslab/">Gameslab</list>
-                <list href="https://openlab.sk/appslab/">Appslab</list>
+        <nav>
+            <a href="https://openlab.sk/">
+                <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/openlab-logo.svg" alt="Openlab logo" id="logo">
+            </a>
+            <div class="navbarContent">
+                <ul class="linky">
+                    <li><a href="https://openlab.sk/">Úvod</a></li>
+                    <li><a href="https://openlab.sk/openlaby/" id="openlab">OpenLab</a></li>
+                    <ul class="openlab_dropdown">
+                        <li><a href="https://openlab.sk/hybridlab/">Hybridlab</a></li>
+                        <li><a href="https://openlab.sk/gameslab/">Gameslab</a></li>
+                        <li><a href="https://openlab.sk/appslab/">Appslab</a></li>
+                    </ul>
+                    <li><a href="https://openlab.sk/pre-ucitelov/">Pre učiteľov</a></li>
+                    <li><a href="https://openlab.sk/partneri/">Partneri</a></li>
+                    <li><a href="https://openlab.sk/moderna-skola/">Moderná škola</a></li>
+                    <li><a href="https://openlab.sk/caste-otazky/">Časté otázky</a></li>
+                </ul>
+                <a href="https://openlab.sk/openlaby/">
+                    <button id="pridaj_sa_k_nam">Pridajte sa k nám</button>
+                </a>
             </div>
-            <a href="https://openlab.sk/pre-ucitelov/"><p>Pre učiteľov</p></a>
-            <a href="https://openlab.sk/partneri/"><p>Partneri</p></a>
-            <a href="https://openlab.sk/moderna-skola/"><p>Moderná škola</p></a>
-            <a href="https://openlab.sk/caste-otazky/"><p>Časté otázky</p></a>
-        </div>
-        <button id="pridaj_sa_k_nam">Pridajte sa k nám</button>
+        </nav>
     </header>
 
     <section class="institut">
