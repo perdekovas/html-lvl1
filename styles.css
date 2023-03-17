@@ -9,6 +9,47 @@ h1 {
     font-weight: normal;
 }
 
+.discord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5%;
+    padding: 12px 0 12px 0;
+}
+
+.discord>p {
+    font-size: 82.5%!important;
+    letter-spacing: 1px;
+}
+
+#dc {
+    padding: 7px 10px 7px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 80%!important;
+    letter-spacing: 0.75px;
+    color: rgb(155, 155, 155);
+    border-color: rgb(182, 181, 181);
+    border-width: 0.8px;
+    border-style: solid;
+}
+
+#dc>img {
+    width: 15px;
+}
+
+#dc:hover {
+    color: black;
+    transition: 0.25s;
+}
+
+.ciara {
+    background-color: #3597ff;
+    opacity: 20%;
+    height: 1px;
+    margin: 0 4% 0 4%;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -64,16 +105,14 @@ a:hover {
 }
 
 #pridaj_sa_k_nam {
-    background-color: #3597ff;
+    background-color:#3597ff;
     color: white;
-    padding: 15px 20px;
-    border-radius: 10px;
+    font-size: 87%!important;
+    padding: 15px 22.5px;
+    border-radius: 7px;
     border: none;
     cursor: pointer;
-}
-
-#pridaj_sa_k_nam>p {
-    letter-spacing: 8px;
+    letter-spacing: 1px;
 }
 
 .institut {
@@ -95,9 +134,10 @@ a:hover {
 }
 
 .text>p {
-    font-size: 145%!important;
+    font-size: 130%!important;
     letter-spacing: 1.25px;
     line-height: 25px;
+    margin-top: 20px;
 }
 
 .preco_openlab_text {
@@ -128,6 +168,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     gap: 2%;
+    margin-top: -82px;
 }
 
 .karta {
@@ -135,7 +176,7 @@ a:hover {
     justify-content: space-between;
     flex-direction: column;
     width: 300px;
-    height: 140px;
+    height: 125px;
 }
 
 .karta>p {
@@ -149,7 +190,7 @@ a:hover {
 .nasa_vizia {
     display: flex;
     justify-content: space-around;
-    margin-top: 150px;
+    margin-top: 95px;
 }
 
 #nasa_vizia_text {
@@ -216,4 +257,71 @@ a:hover {
 #card4 {
     background-color: rgba(238, 156, 156, 0.4);
     color: #b95e73;
+}
+
+.laby {
+    display: flex;
+    align-items: space-between;
+    margin-top: 190px;
+}
+
+.laby_text {
+    display: flex;
+    align-items: center;
+    font-size: 170%!important;
+    font-weight: lighter;
+    width: 350px;
+    padding: 0 120px 0 80px;
+}
+
+.karty {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    align-content: space-around;
+}
+
+.laby_karty {
+    width: 190px;
+    padding-right: 100px;
+}
+
+.laby_karty>h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.laby_karty>p {
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    color: #566b8d;
+}
+
+.laby_karty>img {
+    padding-top: 20px;
+}
+
+.skoly_nadpis {
+    display: flex;
+    justify-content: center;
+    font-size: 160%!important;
+    padding-top: 100px;
+}
+
+.skoly {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.skola {
+    margin: 4.2%;
+}
+
+.skola>img {
+    width: 525px;
+}
+
+.skola>p {
+    color: #566b8d;
 }
